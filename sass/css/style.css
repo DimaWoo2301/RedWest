@@ -71,6 +71,10 @@ li {
   margin-right: 34px;
   text-transform: uppercase;
 }
+.navbar-content__item:hover {
+  color: #CC0000;
+  cursor: pointer;
+}
 
 .footer {
   margin-top: 100px;
