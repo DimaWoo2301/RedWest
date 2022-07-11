@@ -72,6 +72,18 @@ li {
   text-transform: uppercase;
 }
 
+.footer {
+  margin-top: 100px;
+}
+.footer-wraper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-wraper__item {
+  margin-right: 55px;
+}
+
 .main {
   background: url("../");
   margin-top: 40px;
