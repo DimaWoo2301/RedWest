@@ -1,5 +1,8 @@
 .main
-    background: url("../")
+    background-image: url("../../img/main/wrapper-main.png")
+    background-size: 1600px
+    background-position-x: 150px
+    background-repeat: no-repeat
     margin-top: 40px
     &-wrapper
         display: flex
@@ -66,3 +69,51 @@
                 font-weight: 400
                 font-size: 17px
                 line-height: 23px
+.main-mobile
+    display: none
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    &__image
+        margin: 50px 0
+    &-content
+        color: #fff 
+        width: 630px
+        background: rgba(0, 0, 0, 0.65)
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+        border-radius: 20px
+        padding: 25px
+        &__button
+            &-block
+                margin: 25px 0
+                display: flex
+                flex-direction: column
+                align-items: center
+                &__item
+                    position: relative
+                    background: none
+                    border: none
+                    &:hover
+                        cursor: pointer
+                    &__text
+                        font-weight: 400
+                        font-size: 32px
+                        line-height: 38px
+                        position: absolute
+                        left: 25%
+                        top: 20%
+        &__title
+            color: #CC0000
+            font-family: 'Gotham Pro'  
+            font-weight: 500
+            font-size: 24px
+            line-height: 38px
+            text-align: center
+            display: block
+        &__text
+            margin: 10px 25px 0 0
+            color: #fff
+            font-weight: 400
+            font-size: 17px
+            line-height: 23px
+            text-align: center
