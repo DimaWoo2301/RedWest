@@ -1,0 +1,14 @@
+@import url(//db.onlinewebfonts.com/c/ab21a97b9cae2e116d8d1473baefc9f0?family=RDR+Lino);
+@font-face {
+    font-family: 'Gotham Pro Regular';
+    src: url('./fonts/GothamPro.eot');
+    src: url('./fonts/GothamPro.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/GothamPro.woff') format('woff'),
+    url('./fonts/GothamPro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+@font-face {
+    font-family: 'RDR Lino Regular';
+    src: url('./fonts/RDRLino-Regular.ttf') format('truetype');
+}
