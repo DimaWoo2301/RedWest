@@ -363,7 +363,6 @@ li {
 .sky {
   background-image: url("./../img/sky.png");
   position: absolute;
-  height: 389%;
   width: 100%;
   opacity: 0.4;
   z-index: -1;
